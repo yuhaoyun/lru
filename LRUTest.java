@@ -18,7 +18,7 @@ public class LRUTest {
 				System.out.println(ll.toString());
 			} else {
 				if (ll.contains(is[i])) {
-					// 放到最后
+					// 新的放到最后
 					int index = ll.indexOf(is[i]);
 					for(int j = index+1;j<num;j++) {
 						ll.set(j-1, ll.get(j));
